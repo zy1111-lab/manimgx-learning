@@ -1,0 +1,7 @@
+/.venv/
+/upstream-manimgx/
+/work/
+__pycache__/
+*.pyc
+*.mp4
+*.storyboard.png
