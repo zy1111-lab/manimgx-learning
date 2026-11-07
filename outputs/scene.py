@@ -8,4 +8,5 @@ class Hello3D(m.ThreeDScene):
         self.begin_ambient_camera_rotation(rate=0.5)
         cube = m.Cube(side_length=2, fill_opacity=0.3, stroke_width=2)
         self.play(m.Create(cube), run_time=2)
-        self.wait(4)
+        self.wait(4, frozen_frame=True)
+        self.wait(2)
